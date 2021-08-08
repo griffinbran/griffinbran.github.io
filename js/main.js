@@ -624,7 +624,7 @@
       var feedbackEl = form.find('.contact-feedback');
       event.preventDefault();
       // Waiting for the response from the server
-      submitBtn.html('Thank you for your message. Check you inbox for verification.').addClass('success').prop('disabled', true);
+      submitBtn.html('Thank you for your message. Check your sent mail for verification.').addClass('success').prop('disabled', true);
       setTimeout(function() {
         // Posts the Form's data to the server using Ajax
         $.ajax({
